@@ -12,9 +12,9 @@ class drawer():
         pygame.font.init()
         self.surface = pygame.display.set_mode((xSize,ySize))
         pygame.display.set_caption('ARKANOID')
-        self.font = pygame.font.Font("ARCADECLASSIC.TTF",40)
-        self.smallFont = pygame.font.Font("ARCADECLASSIC.TTF", 20)
-        self.bigFont = pygame.font.Font("ARCADECLASSIC.TTF", 120)
+        self.font = pygame.font.Font("src/ARCADECLASSIC.TTF",40)
+        self.smallFont = pygame.font.Font("src/ARCADECLASSIC.TTF", 20)
+        self.bigFont = pygame.font.Font("src/ARCADECLASSIC.TTF", 120)
         self.ball = ball
         self.pad = pad
         self.brick = brick

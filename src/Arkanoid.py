@@ -1,3 +1,7 @@
+import sys
+sys.path.append('src/')
+
+
 import pygame, sys, math, cmath
 from pygame.locals import *
 import numpy as np
@@ -531,9 +535,7 @@ class Arkanoid:
 
 
 
-arkanoid = Arkanoid()
 
-arkanoid.mainLoop()
 
 
 
